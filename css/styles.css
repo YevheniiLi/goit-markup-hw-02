@@ -1,0 +1,9 @@
+.site-nav :hover,
+.site-nav :focus{
+color: #2196F3
+}
+
+.contacts-link :hover,
+.contacts-link :focus {
+    color: #2196F3;
+}
