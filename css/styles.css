@@ -1,9 +1,52 @@
-.site-nav :hover,
-.site-nav :focus{
-color: #2196F3
+body{
+    background-color: #FFFFFF;
+    color:  #757575
 }
 
-.contacts-link :hover,
-.contacts-link :focus {
+.logo {
     color: #2196F3;
 }
+
+ul {
+    list-style: none
+}
+
+/* site-nav */
+.site-nav :hover,
+.site-nav :focus{
+    color: #2196F3
+}
+
+/* contacts-link */
+.contacts-link :hover,
+.contacts-link :focus {
+    color: 
+    #2196F3
+}
+
+/* button-link */
+.button-link :hover,
+.button-link :focus
+.button-link :active {
+    color: #FFFFFF
+}
+
+/* hero */
+.hero {
+color: white;
+}
+
+/* feature-list */
+.feature-list , .title {
+    color: #000000;
+}
+
+/* title-text */
+.title-text {
+    color: 
+    #757575;
+}
+
+
+
+
