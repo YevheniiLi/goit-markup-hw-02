@@ -28,8 +28,11 @@ ul {
 .button-link :hover,
 .button-link :focus
 .button-link :active {
-    color: #FFFFFF
-}
+    color: #FFFFFF;
+    background-color: #2196F3;
+    display: inline;
+    }
+
 
 /* hero */
 .hero {
