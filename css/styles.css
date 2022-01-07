@@ -14,19 +14,23 @@ ul {
 /* site-nav */
 .site-nav :hover,
 .site-nav :focus{
-    color: #2196F3
-}
+    color: #2196F3;
+ }
 
 /* contacts-link */
-.contacts-link :hover,
+.link {
+    color: #757575;
+}
+.link:hover {
+    color: #2196F3;
+} 
 .contacts-link :focus {
-    color: 
-    #2196F3
+    color: #2196F3;
 }
 
 /* button-link */
 .button-link :hover,
-.button-link :focus
+.button-link :focus,
 .button-link :active {
     color: #FFFFFF;
     background-color: #2196F3;
@@ -37,6 +41,7 @@ ul {
 /* hero */
 .hero {
 color: white;
+
 }
 
 /* feature-list */
