@@ -1,10 +1,16 @@
 body{
     background-color: #FFFFFF;
-    color:  #757575
+    color:  #757575;
+    font-family: Roboto, sans-serif;
 }
-
+/* logo */
 .logo {
     color: #2196F3;
+    font-family:  Raleway, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -15,6 +21,10 @@ ul {
 .site-nav :hover,
 .site-nav :focus{
     color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
  }
 
 /* contacts-link */
