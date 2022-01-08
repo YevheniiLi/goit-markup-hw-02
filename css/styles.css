@@ -2,7 +2,14 @@ body{
     background-color: #FFFFFF;
     color:  #757575;
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
+
+ul {
+    list-style: none
+}
+
+
 /* logo */
 .logo {
     color: #2196F3;
@@ -11,10 +18,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-}
-
-ul {
-    list-style: none
+    text-decoration: none;
 }
 
 /* site-nav */
@@ -25,46 +29,106 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
- }
+    text-decoration: none;
+}
 
-/* contacts-link */
+/* .contacts-link */
 .link {
     color: #757575;
 }
 .link:hover {
     color: #2196F3;
-} 
-.contacts-link :focus {
-    color: #2196F3;
+}
+    .contacts-link :hover,
+    .contacts-link :focus,
+    .contacts-link :active {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* button-link */
 .button-link :hover,
-.button-link :focus,
-.button-link :active {
+.button-link :focus {
     color: #FFFFFF;
     background-color: #2196F3;
     display: inline;
-    }
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
 
 
 /* hero */
-.hero {
-color: white;
-
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* feature-list */
-.feature-list , .title {
-    color: #000000;
+.feature-title{
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-/* title-text */
-.title-text {
-    color: 
-    #757575;
+.feature-text {
+    color:#757575;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* Main-title */
+.main-title{
+    color: #212121;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.people-title{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.job-title-text{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
+/* poster-list */
+.poster-title{
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
-
+.poster-text{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.87;
+}
