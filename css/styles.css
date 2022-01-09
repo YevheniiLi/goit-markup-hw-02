@@ -12,7 +12,7 @@ ul {
 
 /* logo */
 .logo {
-    color: #2196F3;
+    color: #212121;
     font-family:  Raleway, cursive;
     font-weight: bold;
     font-size: 26px;
@@ -20,45 +20,114 @@ ul {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+.logo-title{
+    color: #2196F3;;
+}
 
 /* site-nav */
-.site-nav :hover,
-.site-nav :focus{
+ 
+.site-nav :focus {
     color: #2196F3;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    }
+
+.link-nav :hover {
+    text-decoration: none;  
 }
 
+
 /* .contacts-link */
+
 .link {
     color: #757575;
-}
-.link:hover {
-    color: #2196F3;
-}
-    .contacts-link :hover,
-    .contacts-link :focus,
-    .contacts-link :active {
+    text-decoration: none;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+}
+.link:hover {
+    color: #2196F3;
 }
 
+.adress{
+    color: #212121;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
 /* button-link */
-.button-link :hover,
+
+
+.button-link {
+color: #212121;
+
+display: inline-block;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+}
+
 .button-link :focus {
     color: #FFFFFF;
     background-color: #2196F3;
-    display: inline;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
+   
+
+   
+    
 }
+
+.button-link :hover {
+color: #FFFFFF;
+cursor: pointer;
+
+
+}
+
+
+.btn-link {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.btn:active {
+    color: #FFFFFF;
+
+}
+		
+   
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* hero */
