@@ -1,13 +1,10 @@
 :root {
---primary-text-color :#757575;
---title-text-color :#212121;
---accent-color :#2196F3;
---item-text-color :#FFFFFF;
+    --primary-text-color :#757575;
+    --title-text-color :#212121;
+    --accent-color :#2196F3;
+    --item-text-color :#FFFFFF;
+    --contact-text-color : rgba(255, 255, 255, 0.6);
 }
-
-
-
-
 
 
 body{
@@ -39,9 +36,8 @@ ul {
 
 /* header-list */
 
-.header-item {
-    color: var(--title-text-color);
-    font-family: Roboto;
+.header-link {
+    color: var(--title-text-color);    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -49,25 +45,27 @@ ul {
     text-decoration: none;
 }
 
-.header-list :focus {
+.header-item :hover {
+    color: var(--accent-color);
+    text-decoration: none;  
+}
+
+.header-item :focus {
     color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    }
+}
 
-    .header-list :hover {
-        color: var(--accent-color);
-        text-decoration: none;  
-    }
+    
 
 
 
 /* .header-contacts-link */
 
-.link {
+.contacts-item .link {
     color: var(--primary-text-color);
     text-decoration: none;
     font-style: normal;
@@ -77,24 +75,17 @@ ul {
     letter-spacing: 0.02em;
 
 }
-.link:hover {
+.contacts-item .link:hover,
+.contacts-item .link:focus {
     color: var(--accent-color);
 }
 
-.adress{
-    color: var(--item-text-color);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    text-decoration: none;
-}
 
 
 /* button-link */
 
-
-.btn-link {
+.btn {
+    color: var(--title-text-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -102,24 +93,17 @@ ul {
     line-height: 1.62;
     letter-spacing: 0.03em;
 }
-
-.btn-link :hover {
+.btn-item :hover ,
+.btn-item :focus {
     color: var(--item-text-color);
     background: #2196F3;
     cursor: pointer;
-    
-    }
-
-.btn-link :focus {
-    color: var(--item-text-color);
-    background: #2196F3;
 }
 
 
 
-
 /* hero btn */ 
-.hero-btn-link {
+.hero-button {
     color: var(--item-text-color);
     background: #2196F3;
     font-family: Roboto;
@@ -133,14 +117,17 @@ ul {
     letter-spacing: 0.06em;
 }
 
+.hero-btn :hover,
+.hero-btn :focus {
+    cursor: pointer;
+}
 
 		
-   
-	
 /* hero */
 
 .hero {
     background: #2F303A;
+    
 }
 
 .hero-title {
@@ -232,3 +219,30 @@ ul {
 .logo-title-footer {
     color: var(--accent-color);
 }
+
+.adress{
+    color: var(--item-text-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+
+.link {
+    color: var(--contact-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.footer-item :hover ,
+.footer-item :focus {
+   color: var(--accent-color);
+   cursor: pointer;
+}
+
